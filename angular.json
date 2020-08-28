@@ -125,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-app"
+    }
+  },
+  "defaultProject": "angular-app",
+  "cli": {
+    "analytics": "50e06664-c30c-4c25-b8b1-cad26936c371"
+  }
 }
