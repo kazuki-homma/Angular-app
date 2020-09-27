@@ -19,7 +19,7 @@ const app = express();
 
 app.use('/api/v1/products', productRoutes);
 
-const PORT = '3001'
+const PORT = process.env.port || '3001'
 
 app.listen(PORT, function() {
     console.log('I am running!');
