@@ -28,6 +28,11 @@
         border-radius: 0;
     }
 
+    .card-img-top {
+        border-top-left-radius: $border-radius-extreme;
+        border-top-right-radius: $border-radius-extreme;
+    }
+
     .card-footer{
         padding: 15px;
         background: transparent ;
